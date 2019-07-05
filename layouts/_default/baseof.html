@@ -11,8 +11,6 @@
 		<link rel="stylesheet" href="{{ .Site.BaseURL }}css/hybrid.css">
 		<link rel="stylesheet" href="{{ .Site.BaseURL }}css/style.css">
 		<link rel="stylesheet" href="{{ .Site.BaseURL }}css/colors-{{ .Site.Params.scheme | default "dark" }}.css">
-
-		{{ partial "head.html" . }}
 	</head>
 	<body>
 		<header id="header">
@@ -35,7 +33,5 @@
 					<a href="https://github.com/bake/solar-theme-hugo">Solar</a>-theme.</p>
 			</footer>
 		</div>
-
-		{{ partial "foot.html" . }}
 	</body>
 </html>
